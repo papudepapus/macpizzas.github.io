@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #1f2022;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 120px 0 0 0;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #c2977a;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    display: block;
+    padding: 10px 15px;
+    color: #fff9fa;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+    color: #c2977a;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-txt{
+    flex-basis: 50%;
+
+}
+
+.header-txt h1{
+    font-size: 50px;
+    color: #fff9fa;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p{
+    color: #8e8f91;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c2977a;
+    color: #fff9fa;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.header-img{
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.header-img img{
+    width: 450px;
+    height: 450px;
+    border-radius: 270px;
+}
+
+.about{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about-img{
+    flex-basis: 50%;
+    text-align: center;
+
+}
+
+.about-img img{
+    width: 550px;
+    height: 550px;
+    border-radius: 270px;
+}
+
+.about-txt{
+    flex-basis: 50%;
+}
+
+.about-txt span{
+    color: #c2977a;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 40px;
+    color: #fff9fa;
+    font-weight: 800;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin: 30px;
+}
+
+.food{
+    padding: 50px 0; 
+    text-align: center;
+}
+
+.food-content{
+    margin: 50px 250px 0 250px;
+}
+
+.food-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.food-img{
+    flex-basis: 30%;
+}
+
+.food-img img{
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+}
+
+.food-txt{
+    flex-basis: 70%;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.food-txt h3{
+    font-size: 18px;
+    color: #fff9fa;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.food-txt p{
+    color: #8e8f91;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.food-txt span{
+    color: #c2977a;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.products{
+    padding: 0 0 100px 0;
+    text-align: center;
+}
+
+.products img{
+    width: 100%;
+    border-radius: 2px;
+}
+
+.product-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    margin: 50px 0 20px 0;
+}
+
+.product-2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    margin-bottom: 25px;
+}
+
+.product-1 img{
+    height: 300px;
+    border-radius: 2px;
+}
+
+.product-2 img{
+    height: 600px;
+    border-radius: 2px;
+}
+
+.footer{
+    background-color: #1f2022;
+    display: flex;
+    padding: 50px 0;
+    text-align: center;
+    justify-content: space-between;
+    border-top: 1px solid #c2977a;
+}
+
+.link h3{
+    color: #c2977a;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.link a{
+    color: #8e8f91;
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.link a:hover{
+    color: #fff9fa;
+}
+
+@media (max-width:991px){
+    .menu{
+        padding: 30px;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #c2977a;
+        display: none;
+    }
+
+    .menu .navbar ul li a:hover{
+        color: #1f2022;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+        padding: 100px 30px 30px 30px;
+    }
+
+    .header-content{
+        flex-direction: column;
+
+    }
+
+    .header-txt{
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .header-img{
+        width: 100%;
+    }
+
+    .btn-1{
+        margin-top: 25px;
+    }
+
+    .about{
+        padding: 30px 30px 10px 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    h2 {
+        margin-bottom: 15px;
+    }
+
+    .about-img{
+        order: 2
+    }
+
+    .about-img img{
+        width: 50%;
+    }
+
+    .about-txt{
+        margin-bottom: 25px;
+    }
+
+    .food{
+        padding: 30px;
+    }
+
+    .food-content{
+        margin: 30px 0 0 0;
+    }
+
+    .food-1{
+        flex-direction: column;
+    }
+
+    .food-txt{
+        margin: 10px 0 0 0;
+        text-align: center;
+    }
+
+    .products{
+        padding: 30px;
+    }
+
+    .product-1{
+        column-gap: 10px;
+        margin: 20px 0 10px 0;
+    }
+
+    .product-2{
+        column-gap: 10px;
+        margin-bottom: 10px;
+        
+    }
+
+    .footer{
+        flex-direction: column;
+        margin-top: 30px;
+        padding: 30px;
+        text-align: center;
+    }
+}
+
+
+
+
+
