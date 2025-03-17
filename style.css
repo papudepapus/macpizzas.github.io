@@ -48,7 +48,7 @@ img{
 }
 
 .menu{
-    background-image: url(.img/background/1.jpg);
+    background-image: url('/img/background/1.jpg');
     background-size: 10%;
     background-repeat: repeat;
 }
