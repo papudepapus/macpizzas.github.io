@@ -138,7 +138,7 @@ p{
     padding: 100px 0;
     display: flex;
     justify-content: space-between;
-    
+    border-top: 1px solid #c2977a;
 
 }
 
