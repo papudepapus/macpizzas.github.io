@@ -48,7 +48,7 @@ img{
 }
 
 .menu{
-    background-image: url(../img/background/1.jpg);
+    background-image: url(img/background/1.jpg);
     background-size: 10%;
     background-repeat: repeat;
 }
@@ -176,7 +176,7 @@ h2 {
 .food{
     padding: 50px 0; 
     text-align: center;
-    background-image: url(../img/background/1.jpg);
+    background-image: url(img/background/1.jpg);
     background-size: 30%;
     background-repeat: repeat;
 }
