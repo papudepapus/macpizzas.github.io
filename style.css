@@ -37,6 +37,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .logo{
@@ -46,9 +47,16 @@ img{
     text-transform: uppercase;
 }
 
+.menu{
+    background-image: url(../img/background/1.jpg);
+    background-size: 10%;
+    background-repeat: repeat;
+}
+
 .menu .navbar ul li{
     position: relative;
     float: left;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .menu .navbar ul li a{
@@ -58,6 +66,7 @@ img{
     color: #fff9fa;
     text-transform: uppercase;
     font-weight: 600;
+    
 }
 
 .menu .navbar ul li a:hover{
@@ -80,6 +89,7 @@ img{
 .header-content{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .header-txt{
@@ -120,13 +130,14 @@ p{
 .header-img img{
     width: 450px;
     height: 450px;
-    border-radius: 270px;
+    border-radius: 20px;
 }
 
 .about{
     padding: 100px 0;
     display: flex;
     justify-content: space-between;
+    
 
 }
 
@@ -165,16 +176,30 @@ h2 {
 .food{
     padding: 50px 0; 
     text-align: center;
+    background-image: url(../img/background/1.jpg);
+    background-size: 30%;
+    background-repeat: repeat;
+}
+
+.food h2{
+    color: #1f2022;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 50px;
 }
 
 .food-content{
     margin: 50px 250px 0 250px;
+    
 }
 
 .food-1{
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+
+    
 }
 
 .food-img{
@@ -191,6 +216,9 @@ h2 {
     flex-basis: 70%;
     text-align: left;
     margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding-left: 10px;
 }
 
 .food-txt h3{
@@ -202,7 +230,7 @@ h2 {
 }
 
 .food-txt p{
-    color: #8e8f91;
+    color: #c2977a;
     font-size: 16px;
     margin-bottom: 10px;
 }
