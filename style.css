@@ -6,11 +6,13 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    
 }
 
 body{
     font-family: "Poppins", sans-serif;
     background-color: #1f2022;
+    
 }
 
 .container{
@@ -27,6 +29,7 @@ img{
     align-items: center;
     min-height: 80vh;
     padding: 120px 0 0 0;
+    
 }
 
 .menu{
@@ -45,7 +48,7 @@ img{
     font-size: 25px;
     font-weight: 800;
     text-transform: uppercase;
-    padding-left: 15px;
+    padding-left: 10px;
 }
 
 .menu{
@@ -139,7 +142,6 @@ p{
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #c2977a;
-
 }
 
 .about-img{
@@ -246,6 +248,7 @@ h2 {
 .products{
     padding: 0 0 100px 0;
     text-align: center;
+    color: white;
 }
 
 .products img{
@@ -281,7 +284,7 @@ h2 {
     background-color: #1f2022;
     display: flex;
     padding: 50px 0;
-    text-align: center;
+    text-align: left;
     justify-content: space-between;
     border-top: 1px solid #c2977a;
 }
@@ -350,8 +353,9 @@ h2 {
         margin-bottom: 35px;
     }
 
-    .header-img{
-        width: 100%;
+    .header-img {
+        flex-basis: 50%;
+        text-align: center;
     }
 
     .btn-1{
@@ -373,7 +377,7 @@ h2 {
     }
 
     .about-img img{
-        width: 50%;
+        width: 100%;
     }
 
     .about-txt{
@@ -395,6 +399,25 @@ h2 {
     .food-txt{
         margin: 10px 0 0 0;
         text-align: center;
+    }
+
+    .services-slider {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .services-slider > div {
+        scroll-snap-align: start;
+        /* Define un ancho mínimo para cada “slide” */
+        min-width: 80%; /* Puedes ajustar el valor según desees */
+    }
+
+    .services-slider img {
+        width: 100%;
+        height: auto;
     }
 
     .products{
@@ -419,8 +442,3 @@ h2 {
         text-align: center;
     }
 }
-
-
-
-
-
